@@ -60,8 +60,8 @@ public class OOP_Assignment extends PApplet {
 
         smoothAmp = lerp(smoothAmp, avg, 0.1f);
 
-        float cx = width / 2;
-        float cy = height / 2;
+        float cx = halfW;
+        float cy = halfH;
         float angle = 0;
 
         for (int i = 0; i < audio.bufferSize() - 1; i += 10) {
